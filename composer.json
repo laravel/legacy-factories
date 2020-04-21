@@ -19,6 +19,9 @@
         "symfony/finder": "^5.0"
     },
     "autoload": {
+        "files": [
+            "helpers.php",
+        ],
         "psr-4": {
             "Illuminate\\Database\\Eloquent\\": "src/"
         }
