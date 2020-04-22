@@ -32,7 +32,7 @@
         },
         "laravel": {
             "providers": [
-                "Illuminate\\Database\\LegacyFactoryServiceProvider"
+                "Illuminate\\Database\\Eloquent\\LegacyFactoryServiceProvider"
             ]
         }
     },

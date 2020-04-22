@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Database;
+namespace Illuminate\Database\Eloquent;
 
 use Faker\Generator;
 use Illuminate\Support\ServiceProvider;
