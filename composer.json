@@ -20,7 +20,7 @@
     },
     "autoload": {
         "files": [
-            "helpers.php",
+            "helpers.php"
         ],
         "psr-4": {
             "Illuminate\\Database\\Eloquent\\": "src/"
