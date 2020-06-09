@@ -3,7 +3,7 @@
 namespace Illuminate\Database\Eloquent;
 
 use Faker\Generator as Faker;
-use Illuminate\Macroable\Macroable;
+use Illuminate\Support\Traits\Macroable;
 use InvalidArgumentException;
 
 class FactoryBuilder
