@@ -16,7 +16,7 @@
     "require": {
         "php": "^7.3",
         "illuminate/macroable": "^8.0",
-        "symfony/finder": "^4.4|^5.0"
+        "symfony/finder": "^3.4|^4.0|^5.0"
     },
     "autoload": {
         "files": [
