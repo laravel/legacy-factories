@@ -81,6 +81,20 @@ class Factory implements ArrayAccess
     }
 
     /**
+     * Define a class with an alias with a given set of attributes.
+     *
+     * @param  string  $class
+     * @param  callable  $attributes
+     * @return $this
+     */
+    public function defineAs($class, $name, callable $attributes)
+    {
+        $this->definitions[$class][$name] = $attributes;
+
+        return $this;
+    }
+
+    /**
      * Define a state with a given set of attributes.
      *
      * @param  string  $class
