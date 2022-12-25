@@ -232,7 +232,7 @@ class Factory implements ArrayAccess
      */
     protected function isLegacyFactory(string $path)
     {
-        return ! preg_match("/class\s[A-Z+a-z]+ extends Factory/", file_get_contents($path));
+        return ! preg_match("/class\s[a-zA-Z0-9_\x80-\xff]+ extends Factory/", file_get_contents($path));
     }
 
     /**
